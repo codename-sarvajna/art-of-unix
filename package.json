@@ -5,12 +5,6 @@
   "description": "A code reviewer bot inspired by Eric S. Raymond's \"The Art of Unix Programming,\" automates and enhances code reviews by integrating Unix philosophy principles into your development workflow",
   "author": "Inderpal Singh",
   "license": "ISC",
-  "homepage": "https://github.com//",
-  "keywords": [
-    "probot",
-    "github",
-    "probot-app"
-  ],
   "scripts": {
     "build": "tsc",
     "start": "probot run ./lib/index.js",
@@ -26,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
+    "dotenv": "^16.4.5",
     "nock": "^14.0.0-beta.5",
     "smee-client": "^2.0.0",
     "ts-node": "^10.9.2",
@@ -34,6 +29,5 @@
   },
   "engines": {
     "node": ">= 18"
-  },
-  "type": "module"
+  }
 }
